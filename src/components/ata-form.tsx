@@ -112,6 +112,7 @@ export default function AtaForm() {
           border: "1px solid hsl(var(--border))",
         },
       });
+      console.log(err)
     } finally {
       setIsLoading(false);
     }
